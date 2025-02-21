@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in C++ when iterating over a `std::vector`. The error occurs because the loop condition `i <= 10` attempts to access `myVector[10]`, which is beyond the valid index range of 0 to 9 for a vector of size 10.  The solution shows the correct way to iterate up to, but not including the last element using `<` instead of `<=`.
